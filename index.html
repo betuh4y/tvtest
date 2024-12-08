@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TvTest</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      #popcorn-image {
+        width: 100px;
+        height: auto;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 14px;
+        padding: 10px;
+        margin-top: 20px;
+        background-color: #f1f1f1;
+      }
+    </style>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body>
+    <img src="https://images.emojiterra.com/google/noto-emoji/animated-emoji/1f37f.gif" alt="Imagem de pipoca" id="popcorn-image">
+    <div id="player-wrapper">
+      <video id="video" controls=""></video>
+    </div>
+    <select id="channel-select">
+      <!-- Aqui você adicionará os canais da sua lista M3U -->
+      <option value="">Selecione um canal</option>
+    </select>
+
+    <footer>
+      Criado por Luiz Alberto
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="script.js"></script>
+
+
+  </body>
+
+</html>
