@@ -6,7 +6,7 @@ if (Hls.isSupported()) {
     // Lista de canais com novos links
     const channels = [
         { name: "A&E Brasil", url: "https://cdn-3.nxplay.com.br/AeE_BRASIL_TK/tracks-v2a1/mono.m3u8" },
-        { name: "Discovery ID", url: "https://cdn-3.nxplay.com.br/DISCOVERY_ID_NX/tracks-v2a1/mono.m3u8" },
+        { name: "Discovery ID", url: "https://vivofibratech.org:80/Q3sdXWJw8Kxxx22222/pKefJHyVKExxxxxxxxa12/125438.m3u8" },
         { name: "History Channel 2", url: "https://cdn-3.nxplay.com.br/HISTORY_2_TK/tracks-v2a1/mono.m3u8" },
         { name: "Discovery World", url: "https://cdn-3.nxplay.com.br/DISCOVERY_WORLD_NX/tracks-v2a1/mono.m3u8" },
         { name: "Discovery Science", url: "https://cdn-3.nxplay.com.br/DISCOVERY_SCIENCE_NX/index.m3u8" },
@@ -70,3 +70,4 @@ if (Hls.isSupported()) {
 } else {
     console.error("Este navegador não suporta HLS.");
 }
+
